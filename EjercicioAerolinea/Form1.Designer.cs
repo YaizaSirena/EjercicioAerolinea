@@ -79,6 +79,7 @@ namespace EjercicioAerolinea
             this.butrMesAnyoCiu.TabIndex = 3;
             this.butrMesAnyoCiu.Text = "Retrasos Mes/Año/Ciudad";
             this.butrMesAnyoCiu.UseVisualStyleBackColor = true;
+            this.butrMesAnyoCiu.Click += new System.EventHandler(this.butrMesAnyoCiu_Click);
             // 
             // butTopCancel
             // 
@@ -88,6 +89,7 @@ namespace EjercicioAerolinea
             this.butTopCancel.TabIndex = 4;
             this.butTopCancel.Text = "Top Canceladas";
             this.butTopCancel.UseVisualStyleBackColor = true;
+            this.butTopCancel.Click += new System.EventHandler(this.butTopCancel_Click);
             // 
             // butDistancia
             // 
@@ -97,6 +99,7 @@ namespace EjercicioAerolinea
             this.butDistancia.TabIndex = 5;
             this.butDistancia.Text = "Top Distancia";
             this.butDistancia.UseVisualStyleBackColor = true;
+            this.butDistancia.Click += new System.EventHandler(this.butDistancia_Click);
             // 
             // butREmpresas
             // 
@@ -106,6 +109,7 @@ namespace EjercicioAerolinea
             this.butREmpresas.TabIndex = 6;
             this.butREmpresas.Text = "Top Retraso Empresas";
             this.butREmpresas.UseVisualStyleBackColor = true;
+            this.butREmpresas.Click += new System.EventHandler(this.butREmpresas_Click);
             // 
             // butConexion
             // 
