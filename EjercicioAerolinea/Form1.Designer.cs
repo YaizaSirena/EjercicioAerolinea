@@ -59,6 +59,7 @@ namespace EjercicioAerolinea
             this.butRegistros.TabIndex = 1;
             this.butRegistros.Text = "Registros";
             this.butRegistros.UseVisualStyleBackColor = true;
+            this.butRegistros.Click += new System.EventHandler(this.butRegistros_Click);
             // 
             // butRCodigo
             // 
@@ -68,6 +69,7 @@ namespace EjercicioAerolinea
             this.butRCodigo.TabIndex = 2;
             this.butRCodigo.Text = "Retrasos Codigo";
             this.butRCodigo.UseVisualStyleBackColor = true;
+            this.butRCodigo.Click += new System.EventHandler(this.butRCodigo_Click);
             // 
             // butrMesAnyoCiu
             // 
@@ -113,6 +115,7 @@ namespace EjercicioAerolinea
             this.butConexion.TabIndex = 7;
             this.butConexion.Text = "Conexión";
             this.butConexion.UseVisualStyleBackColor = true;
+            this.butConexion.Click += new System.EventHandler(this.butConexion_Click);
             // 
             // butAbrir
             // 
@@ -122,6 +125,7 @@ namespace EjercicioAerolinea
             this.butAbrir.TabIndex = 8;
             this.butAbrir.Text = "Abrir";
             this.butAbrir.UseVisualStyleBackColor = true;
+            this.butAbrir.Click += new System.EventHandler(this.butAbrir_Click);
             // 
             // butCerrar
             // 
@@ -131,6 +135,7 @@ namespace EjercicioAerolinea
             this.butCerrar.TabIndex = 9;
             this.butCerrar.Text = "Cerrar";
             this.butCerrar.UseVisualStyleBackColor = true;
+            this.butCerrar.Click += new System.EventHandler(this.butCerrar_Click);
             // 
             // butRMesAnyo
             // 
@@ -140,6 +145,7 @@ namespace EjercicioAerolinea
             this.butRMesAnyo.TabIndex = 10;
             this.butRMesAnyo.Text = "Retrasos Mes/año";
             this.butRMesAnyo.UseVisualStyleBackColor = true;
+            this.butRMesAnyo.Click += new System.EventHandler(this.butRMesAnyo_Click);
             // 
             // Form1
             // 
